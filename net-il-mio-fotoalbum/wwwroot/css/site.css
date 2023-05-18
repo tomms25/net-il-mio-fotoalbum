@@ -1,0 +1,27 @@
+html {
+    font-size: 14px;
+    width: calc(100vw - 34px);
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.btn-link {
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
